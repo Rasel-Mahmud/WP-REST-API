@@ -138,7 +138,7 @@ if (class_exists('CSF')) {
       array(
         'id'      => 'footer-copyright',
         'type'    => 'text',
-        'title'   => 'Heading Tag Line',
+        'title'   => 'Footer Copyright Text',
         'default' => 'Copyright © 2020 All rights reserved'
       ),
 

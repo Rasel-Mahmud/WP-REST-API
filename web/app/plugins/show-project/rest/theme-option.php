@@ -44,7 +44,7 @@ if (!is_admin()) {
     {
         $options = get_option('show_project');
         $footer_copyright = isset($options['footer-copyright']) ? $options['footer-copyright'] : '';
-        $data[0]['about_me'] = $footer_copyright;
+        $data[0]['copyright'] = $footer_copyright;
         return $data;
     }
 
