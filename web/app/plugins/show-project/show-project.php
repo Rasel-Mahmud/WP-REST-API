@@ -29,5 +29,8 @@ require_once __DIR__ . '/taxonomy/projects.php';
 // Functions
 require_once __DIR__ . '/functions.php';
 
-//REST API
-require_once __DIR__ . '/rest.php';
+//REST API for Project
+require_once __DIR__ . '/rest/project.php';
+
+//REST API Theme Option
+require_once __DIR__ . '/rest/theme-option.php';

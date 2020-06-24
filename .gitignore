@@ -16,8 +16,6 @@ web/.htaccess
 
 # Dotenv
 .env
-.env
-!.env
 
 # Composer
 /vendor
