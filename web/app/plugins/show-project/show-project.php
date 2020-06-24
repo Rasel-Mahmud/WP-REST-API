@@ -20,8 +20,14 @@ require_once __DIR__ . '/admin-options.php';
 // Project
 require_once __DIR__ . '/post-types/projects.php';
 
+// Meta Box
 require_once __DIR__ . '/meta-box.php';
 
+// Taxonomy
 require_once __DIR__ . '/taxonomy/projects.php';
 
+// Functions
 require_once __DIR__ . '/functions.php';
+
+//REST API
+require_once __DIR__ . '/rest.php';
